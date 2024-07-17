@@ -6,7 +6,7 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 .secondary {color: #33363c; font-family: Helvetica, sans-serif}
 .music {color:#b4f8c8; font-family:Helvetica,sans-serif;}
 
-.title {font-size: 20px; font-weight: 1000; font-family: Helvetica, sans-serif;}
+.title {font-size: 20px; font-weight: 800; font-family: Helvetica, sans-serif;}
 .mailto {text-decoration-line: none;}
 .mailto:hover {text-decoration-line: underline;}
 
