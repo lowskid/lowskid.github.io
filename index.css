@@ -33,6 +33,13 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 .logo {width:24px; height:auto;}
 .handle {font-weight:600; padding:0 16px;}
 
+
+@media only screen and (max-device-width : 480px) {
+  .link {
+    width: 100%;
+  }
+
+
 /* Music */
 .music {display:flex; flex-wrap:wrap; gap:10px;}
 
