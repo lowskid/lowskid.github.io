@@ -18,7 +18,7 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 
 .pfp {width:42px; height:auto; border-radius:100%; outline:1px solid #ffffff30;  outline-offset:-1px;}
 .badge {width:16px; height:auto; position:relative; left:-16px; margin-right:-16px;}
-.name {font-size:32px; font-weight:700; font-family:Helvetica,sans-serif; margin:0; align-self:center; margin:0 16px;}
+.name {font-size:32px; font-weight:700; font-family:Helvetica,sans-serif; margin:0; align-self:center; margin:0 16px; position:relative; top:-3px;}
 .about {font-family: Helvetica, sans-serif; font-size:16px;}
 
 #discordID {width:0px;height:0px;margin:0px;visibility:hidden;}
@@ -26,8 +26,8 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 /* Links */
 .links {display: flex; flex-wrap: wrap; gap: 10px}
 
-.link {padding:8px; background-color:#070b0e; border:2px solid #090d10; border-radius:16px; display:inline-flex; align-items:center; justify-content:space-between; text-decoration:none;}
-.link:hover {background-color:#090d10; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.link {padding:8px; background-color:#070b0e; border:2px solid #090d10; border-radius:16px; display:inline-flex; align-items:center; justify-content:space-between; text-decoration:none; position:relative; top:0; transition: 0.3s;}
+.link:hover {box-shadow: 0 4px 8px 0 rgba(7, 11, 14, 0.6), 0 6px 20px 0 rgba(7, 11, 14, 0.6); position:relative; top:-3px;}
 .link img {padding:8px;}
 
 .logo {width:24px; height:auto;}
