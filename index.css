@@ -59,4 +59,6 @@ body {background-color: #05080a; margin:70px auto; padding-left:min(16px); paddi
 .project:hover {background-color:#090d10; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 .project img {padding:8px;}
 
+.trackground:hover {box-shadow: 0 4px 8px 0 rgba(210, 186, 144, 0.6), 0 6px 20px 0 rgba(7, 11, 14, 0.6); position:relative; top:-3px;}
+
 .icon {width:40px;height:auto; padding:0px; border-radius:16px;}
